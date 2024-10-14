@@ -10,23 +10,39 @@
     <header><h1>Formulario de registro</h1></header>
     <form>
       <label for="nombre">Nombre:</label>
-      <input type="text" />
+      <input type="text" id="nombre" placeholder="Ingrese su nombre..." />
       <br /><br />
-
       <label for="apellido">Apellido:</label>
-      <input type="text" />
+      <input type="text" id="apellido" placeholder="Ingrese su apellido..." />
       <br /><br />
-      Modalidad de cursada: <input type="radio" name="opciones" /> On-demand
-      <input type="radio" name="opciones" />En vivo <br /><br />
+      Modalidad de cursada:
+      <input type="radio" name="opciones" id="on-demand" /><label
+        for="on-demand"
+        >On-demand</label
+      >
+      <input type="radio" name="opciones" id="en-vivo" /><label for="en-vivo"
+        >En vivo</label
+      >
+      <br /><br />
       <label for="mail">Correo:</label>
-      <input type="text" />
+      <input type="text" id="mail" placeholder="Ingrese su correo..." />
       <br /><br />
-      <input type="checkbox" /> Deseo recibir información sobre nuevos posteos
-      en la plataforma de Nucba. <br /><br />
-      <input type="checkbox" /> Declaro que leí los términos y condiciones y
-      estoy listo para convertirme en desarrollador web Full Stack. <br /><br />
+      <input type="checkbox" id="check1" />
+      <label for="check1">
+        Deseo recibir información sobre nuevos posteos en la plataforma de
+        Nucba.</label
+      >
+
+      <br /><br />
+      <input type="checkbox" id="check2" />
+      <label for="check2"
+        >Declaro que leí los términos y condiciones y estoy listo para
+        convertirme en desarrollador web Full Stack.</label
+      >
+      <br /><br />
       <button type="submit">Enviar</button>
     </form>
+    <br /><br />
+    <a href="index.html">Currículum Messi</a>
   </body>
-  <a href="index.html">Currículum Messi</a>
 </html>
